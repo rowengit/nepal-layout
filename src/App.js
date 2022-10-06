@@ -1,3 +1,4 @@
+// import { useEffect } from "react";
 import { Header } from "./components/header";
 import { Main } from "./components/main";
 import { Footer } from "./components/footer";
@@ -122,6 +123,26 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 function App() {
+	// useEffect(() => {
+	// 	const apiCalls = async () => {
+	// 		try {
+	// 			const res = await fetch(
+	// 				"/afterschool/opendata/afterschool_json.jsp?city=83"
+	// 			);
+
+	// 			if (res.ok) {
+	// 				const data = await res.json();
+	// 				console.log(data);
+	// 			} else {
+	// 				//fetch api failure.
+	// 			}
+	// 		} catch (error) {
+	// 			console.log(error);
+	// 		}
+	// 	};
+
+	// 	apiCalls();
+	// }, []);
 	return (
 		<BrowserRouter>
 			<GlobalStyle />
