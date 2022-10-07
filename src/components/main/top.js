@@ -5,6 +5,10 @@ const Wrapper = styled.section`
 		padding: 0 0.5rem;
 		text-align: center;
 	}
+
+	.social-media {
+		margin-top: 0.5rem;
+	}
 `;
 
 export const Top = () => {
